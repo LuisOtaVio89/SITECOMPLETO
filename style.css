@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+:root {
+    --fonte1: "Sarala", sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #ffffff;
+    font-family: var(--fonte1);
+    margin: 0;
+}
+
+#primeirotexto{
+  
+    font-family: var(--fonte1);
+    background-color: #f0f9e6;
+    border: 2px solid #00AA2D;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.2em;
+    
+    
+}
+
+#body2 {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #00AA2D,#1b461b);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-size: cover;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #00AA2D,#1b461b);
+    font-family: var(--fonte1);
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #75ff70;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-shadow: 0px 12px 10px black;
+
+}
+
+nav{
+    /* background-color: #1b461b; */
+    /* display: flex; */
+    justify-content: center;
+    padding: 00px 10px 10px 10px;
+    margin-bottom: 20px;
+
+ }
+ nav a{
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     padding-bottom: 10px;
+
+ }
+
+ nav a:hover{
+    background-color: rgb(38, 54, 39);
+    border-radius: 5px;
+    transition-duration: 2s;
+
+ }
+
+h2 {
+    font-family: var(--fonte1);
+    color: #00AB00;
+    text-align: center;
+    font-size: 3em;
+    margin: 70px 0;
+    padding-bottom: 10px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-bottom: 2px solid #00AB00;
+}
+
+.imagens img {
+    width: 400px;
+    height: auto;
+}
+main{
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+#sobre {
+    color: rgb(255, 255, 255);
+}
+
+#oi {
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: var(--fonte1);
+    line-height: 2em;
+}
+
+#promocoes{
+    border-bottom: 2px solid #00AB00;
+}
+
+
+#body1{
+    background-color: #ffffff;
+    font-family: var(--fonte1);
+    margin: 0;
+}
+
+#carros{
+    text-align: left;
+}
+
+#jogos {
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 39, 39);
+    border: 2px solid green;
+    padding: 20px;
+    margin-top: 28px;
+    /* margin: 20px auto; */
+    transition: transform 0.3s;
+}
+
+#jogos:hover {
+    transform: scale(1.05);
+}
+
+#jogos img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+article{
+    text-align: center;
+}
+
+#jogoshalo {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #525641;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+#cards {
+    float: left;
+    margin: auto;
+}
+
+#jogoshalo:hover {
+    transform: scale(1.05);
+}
+
+#jogoshalo img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+#jogos5 {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #3B5B8F;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+#jogos5:hover {
+    transform: scale(1.05);
+}
+
+#jogos5 img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+section#controle{
+    background: url("imagens/controle.png");
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+
+footer  {
+    color: #75ff70;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 30%;
+    margin: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.box h2 {
+    font-weight: bold;
+}
+
+
+.visao {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* quiz */
+
+.quiz-form {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-section {
+    background-color: #00AB00;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#quiz {
+    width: 100%;
+    padding: 10px;
+    background-color: #00AB00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#quiz:hover {
+    background-color: #465544;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a4f47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #465544;
+}
+
+#result {
+    height: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.result-image {
+    display: none;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+
+footer {
+    padding: 10px;
+    background-color: #009700;
+    height: 22px;
+    text-align: center;
+    padding-top: 18px;
+    margin: 20px 0px 0px 0px;
+    color: white;
+    position: relative;
+}
+
+.question {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#quizcabeca{
+    background-image: linear-gradient(to bottom, #00AA2D,#1b461b);
+    font-family: var(--fonte-destaque);
+    height: 150px;
+    text-align: center;
+    /* padding-top: 40px; */
+    color: white;
+}
+
+#quizcabeca nav {
+    margin-top: 15px;
+}
+
+#quizcabeca a {
+    color: #75ff70;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#quizcabeca a:hover {
+    text-decoration: underline;
+}
+
+.kit-image {
+    display: block; 
+    margin: 0 auto 20px auto; 
+}
+
+form {
+    width: 600px;
+    margin: auto;
+}
+
+.question2 {
+    margin: 10px 10px 21px 10px;
+}
+
+
+.nestle {
+    margin: 10px 10px 10px 2px;
+}
+
+
+.question > #Pergunta{
+    margin: 18px 10px 10px 12px;
+}
+
+#titulo {
+    font-family: var(--fonte1);
+    color: white;
+    font-size: 3em;
+    text-shadow: 0px 12px 10px black;
+    padding-bottom: 20px;
+}
+
+.question {
+    margin: 0; 
+    text-align: left; /
+}
+
+.question h3 {
+    margin: 0;
+    padding: 0; 
+}
+
+h2.primeiro, h2.segundo {
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+    padding-bottom: 2px;
+    background-color: #00AB00;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+:root {
+    --fonte1: "Sarala", sans-serif;
+}
+
+
+.forza {
+    /* position: relative; */
+    /* width: 100vw; */
+    height: auto;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+main{
+    margin: auto;
+    text-align: center;
+}
+.imagem1 {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+
+}
+  
+.text-forza {
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0;
+    width: 100vw; */
+    background-color: #006400;
+    color: white;
+    text-align: center;
+   
+}
+  
+.forza-5 {
+    /* width: 100vw; */
+    background-color: white;
+    /* padding: 20px; */
+    /* margin-bottom: 20px; */
+    border: solid #006400 20px;
+    margin: auto;
+    
+}
+  
+h1 {
+    font-size: 2em;
+    /* width: 100vw; */
+    /* margin-bottom: 10px; */
+}
+  
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.button:hover {
+    text-decoration: underline;
+}
+  
+.forza-5 h2 {
+    margin-top: 0;
+    font-family: var(--fonte1);
+}
+  
+.forza-5 p {
+    margin-bottom: 10px;
+    font-family: var(--fonte1);
+}
+
+/*contato*/
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    color: #00AB00;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#enviarContato[type="submit"] {
+    background-color: #00AB00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#enviarContato[type="submit"]:hover {
+    background-color: #008f00;
+}
+
+#enviarBtn {
+    background-color: #00AB00;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid #00AB00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#enviarBtn:hover {
+    background-color: white;
+    color: #00AB00;
+    border-color: #008f00;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px; 
+    height: auto; 
+}
+
+/*rolagem*/
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00AB00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    display: none; 
+}
+
+#backToTop:hover {
+    background-color: #008f00;
+}
+
+
+
+

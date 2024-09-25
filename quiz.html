@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz HTML CSS</title>
+</head>
+<body id="body2">
+    <header id="quizcabeca">
+        <nav>
+            <h1 id="titulo">Quiz Xbox</h1>
+            <a id="sobre" href="index.html">Inicio</a>
+            <a id="sobre" href="jogosdestaque.html">Jogos</a>
+            <a id="sobre" href="https://www.xbox.com/pt-BR" target="_blank">Xbox</a>
+            <a id="sobre" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="quiz-form">
+        <form >
+            <section class="question">
+                <h3>Qual foi o primeiro jogo exclusivo lançado para o Xbox original em 2001?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'); playsound()">A) Halo: Combat Evolved</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'); playsound()">B) Fable</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'); playsound()">C) Forza Motorsport</label><br>
+            </section>
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual foi o último console lançado?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="handleAnswer('q2', 'tablet'); playsound()">A) Xbox Series X </label><br>
+                <label><input type="radio" name="q2" value="B" onclick="handleAnswer('q2', 'pasta'); playsound()">B) Xbox Series S</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="handleAnswer('q2', 'pops'); playsound()">C) Xbox One</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="handleAnswer('q2', 'cereal'); playsound()">D) Xbox 360</label>
+                <img src="imagens/xboxx.png" class="result-image" id="tablet" alt="Tablet">
+                <img src="imagens/xboxs.png" class="result-image" id="pasta" alt="Pasta">
+                <img src="imagens/xboxone.png" class="result-image" id="pops" alt="Pops">
+                <img src="imagens/xbox360.png" class="result-image" id="cereal" alt="Cereal">
+            </section>
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual estúdio é conhecido por desenvolver a série "Gears of War"?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'); playsound()">A) 343 Industries</label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'); playsound()">B) The Coalition</label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'); playsound()">C) Turn 10 Studios</label><br>
+            </section>
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual jogo de RPG de mundo aberto da Xbox foi lançado em 2004 e se tornou um clássico?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'); playsound()">A) The Elder Scrolls V: Skyrim</label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'); playsound()">B) Fable </label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'); playsound()">C) Fallout 3</label><br>
+            </section>
+       
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual é o nome do serviço de assinatura da Xbox que oferece acesso a uma biblioteca de jogos?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'); playsound()">A) Xbox Live</label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'); playsound()">B) Xbox Game Pass</label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'); playsound()">C) Xbox Gold</label><br>
+
+            </section>
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3 id="pergunta">Em que ano a Microsoft adquiriu a Mojang, a desenvolvedora de "Minecraft"?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'); playsound()">A) 2010</label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'); playsound()">B) 2014</label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'); playsound()">C) 2016</label><br>
+            </section>
+           
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual é o nome do console de videogame mais famoso da Microsoft?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'); playsound()">A) PlayStation</label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'); playsound()">B) Xbox</label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'); playsound()">C) Nintendo Switch</label><br>
+            </section>
+
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual é o controle sem fio usado para jogar no Xbox?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'); playsound()">A) Controle DualShock</label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'); playsound()">B) Controle Xbox Wireless</label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'); playsound()">C) FControle Genesis</label><br>
+            </section>
+
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual é o nome do assistente virtual que pode ser usado no Xbox?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'); playsound()">A) Siri</label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'); playsound()">B) Cortana</label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'); playsound()">C)  Alexa</label><br>
+            </section>
+
+            <h2 class="primeiro"></h2>
+            <section class="question">
+                <h3>Qual empresa dona da marca Xbox?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'); playsound()">A) Sony</label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'); playsound()">B) Microsoft</label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'); playsound()">C)  Eletrolux</label><br>
+            </section>
+
+            <button id="quiz" type="button" onclick="SubmitQuiz()">Enviar resposta</button>
+        
+            <button class="button1" id="resetbutton" type="button" onclick="resetQuiz()" disabled>Tentar novamente</button>
+        </form>
+        <audio id="venceusom" src="som/foxsports.mpeg" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeuSom" src="som/bobesponja.mpeg" preload="auto"></audio>
+
+        <section id="result"></section>
+    </main>
+
+    <footer><a href="https://www.xbox.com/pt-BR" target="_blank">Xbox</a></footer>
+
+    <script src="script.js"></script>
+    
+    <button id="backToTop" onclick="scrollToTop()">↑ Voltar ao Topo</button>
+
+    
+</body>
+</html>

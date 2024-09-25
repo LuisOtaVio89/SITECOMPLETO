@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CHEAP GAMES</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Cheap games</h1>
+            <p>Empresa focada em reenvender jogos exclusivamente de Xbox</p>
+            <p><a href="index.html">Inicio</a> <a href="jogosdestaque.html">Jogos</a> <a href="quiz.html">Quiz</a><a id="sobre" href="https://www.xbox.com/pt-BR" target="_blank">Xbox</a></p>
+        </nav>
+    </header>
+
+    <img id="logo" src="imagens/xbox.png">
+    <section id="contato">
+        <h2>Contate-nos</h2>
+        <p>Telefone: (14) 3662-4232</p>
+        <p>Endereço: Rua XV de Novembro N° 231</p>
+    </section>
+
+        <div id="formulario"></div>
+            <form id="eventForm" action="https://formsubmit.co/luisotaviodomingos146@gmail.com" method="POST">
+                <fieldset>
+                    <legend>Envie sua Mensagem</legend>
+
+                    <label id="labelCon" for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    
+                    <label id="labelCon" for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                    <label id="labelCon" for="mensagem">Mensagem:</label>
+                    <textarea id="msg" name="mensagem" rows="5" cols="50"></textarea>
+
+                    <button type="submit" id="enviarBtn">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+        
+    <script src="script.js"></script>
+    <button id="backToTop" onclick="scrollToTop()">↑ Voltar ao Topo</button>
+
+</body>
+</html>
